@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Lobster');
+#myheading{
+    font-family: Lobster, Audiowide ;
+    font-size:3em;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+
+@media screen and (max-width: 1320px) {
+    #myheading{
+        font-size:2em;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #myheading{
+        font-size:1.7em;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    #myheading{
+        font-size:1.7em;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #myheading{
+        font-size:1.3em;
+    }
+}
+
+
+
+@media screen and (max-width: 540px) {
+    #myheading{
+        font-size:1em;
+    }
+}
+
+
+
+
+
